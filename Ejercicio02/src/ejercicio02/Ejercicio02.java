@@ -7,7 +7,7 @@ package ejercicio02;
 
 /**
  *
- * @author reroes
+ * @author mariangel17
  */
 public class Ejercicio02 {
 
@@ -16,8 +16,15 @@ public class Ejercicio02 {
      */
     public static void main(String[] args) {
         // Resolución del problema
-        int var1 = 10;
-        int var2 = 2;
+        //Definicion de variables y asignación de valores
+        int variable = 10;
+        int exponente= 2;
+        //Math.pow = permite elevar el valor a al valor definido en el atributo b
+        double resultado= (Math.pow(variable, exponente)+variable);
+        
+        
+        System.out.println("resultado:"+resultado);
+        
         
                 
     }

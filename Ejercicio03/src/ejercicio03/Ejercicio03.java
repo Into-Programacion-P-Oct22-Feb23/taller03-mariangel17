@@ -7,7 +7,7 @@ package ejercicio03;
 
 /**
  *
- * @author reroes
+ * @author mariangel17
  */
 public class Ejercicio03 {
 
@@ -16,6 +16,17 @@ public class Ejercicio03 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int variable1=10;
+        int exponente=2;
+        int variable2=16;
+        int variable3=20;
+        int variable4=1;
+        int variable5=11;
+        
+        //operacion
+        double resultado=Math.pow(variable1,exponente)+Math.sqrt(variable2)+(variable3/(variable4+variable5));
+        
+        System.out.println("resultado:"+resultado);
         
     }
     
